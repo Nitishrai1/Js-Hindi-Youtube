@@ -37,9 +37,18 @@ const myobj={
     'game2':'GTA',
     'game3':'freefire'
 }
-for (const i of map) {
-    console.log(i);
-    
+// For object for in loop is used 
+for (const key in myobj) {
+    console.log(` ${key} for ${myobj[key]}`);
 }
 
+const programing=["js","rb","java","cpp"]
+for (const key of programing) {
+    console.log(key);
+    
+}
+for (const key in programing) {
+    console.log(programing[key]);
+    
+}
 
